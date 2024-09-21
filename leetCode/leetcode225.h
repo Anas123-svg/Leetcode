@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include<stdexcept>
 #include<queue>
@@ -52,22 +53,3 @@ public:
 
     }
 };
-
-int main() {
-
-    MyStack* myStack = new MyStack();
-    myStack->push(1);
-    myStack->push(2);
-    myStack->push(3);
-    myStack->push(4);
-    myStack->push(5);
-    myStack->push(6);
-    myStack->push(7);
-    myStack->push(8);
-    int y = myStack->pop();
-    int  x = myStack->top();
-    int yy = myStack->pop();
-    int  xy = myStack->top();
-    cout << y << x << yy << xy;
-    return 0;
-}
