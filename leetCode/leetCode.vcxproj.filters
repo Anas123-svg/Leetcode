@@ -32,5 +32,14 @@
     <ClInclude Include="Leetcode844.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Leetcode232.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Leetode19.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode83.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
